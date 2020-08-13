@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+      <title>Virtual Pet-1</title>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
+      <script src="p5.play.js"></script>
+      <script src="Food.js"></script>
+
+      
+      <!--Your web app's Firebase configuration Initialize Firebase-->
+      <!-- The core Firebase JS SDK is always required and must be listed first -->
+      <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-app.js"></script>
+      <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-database.js"></script>
+
+
+      <!-- TODO: Add SDKs for Firebase products that you want to use
+          https://firebase.google.com/docs/web/setup#available-libraries -->
+
+      <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+          apiKey: "AIzaSyBL_quxZbnh9SpmKvsozzyVoEd0wJ2sDL8",
+          authDomain: "virtual-pet-13f60.firebaseapp.com",
+          databaseURL: "https://virtual-pet-13f60.firebaseio.com",
+          projectId: "virtual-pet-13f60",
+          storageBucket: "virtual-pet-13f60.appspot.com",
+          messagingSenderId: "496396225697",
+          appId: "1:496396225697:web:4f2b5de454c50f1d0b74e0"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+      </script>
+
+      <link rel="stylesheet" type="text/css" href="style.css"/>
+    </head>
+    <body>
+      <script src="sketch.js"></script>
+    </body>
+  </html>
